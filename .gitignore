@@ -1,0 +1,34 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*-backups
+*~
+~*.lck
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+*.log
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Production files and exports
+*.xml
+*.csv
+jlcpcb
+*-rounded.kicad_*
+*.step
+*.pdf
+
+# MacOS files
+.DS_Store
